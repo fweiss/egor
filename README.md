@@ -47,3 +47,12 @@ Orange Pi 8 Plus
 [How To RUN ChatGPT Like LLMs On Raspberry Pi 5 With OLLAMA (TinyLLaMA, PHI & More)](https://www.youtube.com/watch?v=P7BcpLU-PC4)
 
 [Another how to run LLM on RK3588](https://www.youtube.com/watch?v=sTHNZZP0S3E)
+
+[Overview of OPI5 Pro: video, NVME](https://www.youtube.com/watch?v=OwEVFQLPPbE)
+
+[Setup with Droid and eMMC](https://www.youtube.com/watch?v=bgi4c3T4uS4)
+
+[Speech recognition experiments](https://github.com/fquirin/speech-recognition-experiments/blob/main/README.md)
+
+[Example ansible roles to provision OPI 5](https://github.com/martivo/armbian-orange-pi-5-ansible/tree/main)
+
