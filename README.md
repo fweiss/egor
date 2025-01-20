@@ -56,3 +56,5 @@ Orange Pi 8 Plus
 
 [Example ansible roles to provision OPI 5](https://github.com/martivo/armbian-orange-pi-5-ansible/tree/main)
 
+[standalone compiled voice communication system](https://github.com/dadDR/rkllm_talking)
+

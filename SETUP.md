@@ -63,3 +63,7 @@ Outline of the Orange Pi 5 Pro User Manual
 - RKLLM toolchain [3.39.1.1]
 Pages 413-480
 
+## Links and references
+[Joshua Riek Ubuntu Rockchip](https://github.com/Joshua-Riek/ubuntu-rockchip)
+
+
