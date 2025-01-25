@@ -58,3 +58,8 @@ Orange Pi 8 Plus
 
 [standalone compiled voice communication system](https://github.com/dadDR/rkllm_talking)
 
+[RKLLM toolkit and API](https://github.com/airockchip/rknn-llm)
+
+[info on using rknn-lmm](https://github.com/WasmEdge/WasmEdge/issues/3500)
+
+

@@ -63,6 +63,12 @@ Outline of the Orange Pi 5 Pro User Manual
 - RKLLM toolchain [3.39.1.1]
 Pages 413-480
 
+## Turn off flashing blue and green LEDs
+- ``sudo orangepi-config``
+- navigate to System > Hardware
+- tick ``opi5pro-disable-leds``
+- select Save, Back, Reboot
+
 ## Links and references
 [Joshua Riek Ubuntu Rockchip](https://github.com/Joshua-Riek/ubuntu-rockchip)
 
