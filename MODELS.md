@@ -1,4 +1,5 @@
 # Models
+[variety of models for rk3588](https://huggingface.co/c01zaut)
 
 ## simple test
 - build ``llm_demo`` with cmake/make
