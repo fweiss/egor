@@ -23,11 +23,12 @@ A speech-to-speech LLM on Orange Pi 5 with RK3588
 > These can be stored locally and updated from online.
 
 ## Dev board
-Orange Pi 8 Plus
+Orange Pi 5 Pro
 - 16 GB
 - RK3588S
 - quad-core A76 + quad-core A55
 - 400 Mhz/2.4 GHz
+- M.2 NVME PCIe 2.0, 500 MB/s
 - Mali-G610 GPU
 - 16 GB embedded NPU supports INT4/INT8/INT16 mixed computing
 - up to 6TOPS
