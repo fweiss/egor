@@ -24,3 +24,11 @@ E RKNN: [00:27:50.149] load model file error!
 rknn_init fail! ret=-1
 rkllm init success
 ```
+
+### user: how many days in a year
+### user: what is the oldest fossil
+repeats
+### user: do you think that tarriffs can be useful for diplomacy
+some repeat I think it's set to 1.1, whatever that means
+
+> using nvme for model speed up 120 s to 25 s

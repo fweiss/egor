@@ -35,6 +35,9 @@ There are two additional block device which seem to be related.
 ### NVME SSD
 This is clearly nvme0n1, which is 500 GB
 
+- ``sudo mkfs.ext4 /dev/nvme0n1``
+- ``sudo mount -t ext4 /dev/nvme0n1 /mnt/nvme``
+
 ### loopn and snap
 These are some kind of snap hot storage.
 Maybe they are the result of installed apt packages, 6 seems about right.
