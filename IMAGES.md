@@ -21,6 +21,17 @@ http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-su
 
 ## Armbian
 [support](https://www.armbian.com/soc/rk3588/)
+> root/1234
+> You are using an automated build meant only for developers
+>  don't use this image for production
+- kernel: 6.1.84-vendor-rk35xx
+- python3: 3.11.2
+- no gcc, cmake, make, etc
+- RKNPU driver: v0.9.8
+- GNU Wget 1.21.3 built on linux-gnu
+- no git
+- no orangepi-config - armbian-config instead
+- ssh orangepi@orangepi5pro
 
 ## Links and references
 [open source rknpu driver](https://blog.tomeuvizoso.net/2024/06/rockchip-npu-update-4-kernel-driver-for.html)

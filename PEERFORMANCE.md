@@ -7,6 +7,10 @@ startup time for model #1: ~ 2 min
 
 sudo apt-get install s-tui
 
+## nvme speed
+> using nvme instead of SDCard for model speed up 120 s to 25 s
+
+
 ## Tests
 ### 1 open air heat sink
 - s-tui

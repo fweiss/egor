@@ -26,10 +26,17 @@ rknn_init fail! ret=-1
 rkllm init success
 ```
 
+## Model index
+- M001: dolphin-2.9.2-qwen2-7b-rk3588-w8a8-opt-0-hybrid-ratio-0.0.rkllm
+- MOO2: Llama-3.1-8B-Instruct-rk3588-w8a8-opt-1-hybrid-ratio-1.0.rkllm
+
 ### user: how many days in a year
 ### user: what is the oldest fossil
 repeats
-### user: do you think that tarriffs can be useful for diplomacy
+### user: do you think that tariffs can be useful for diplomacy
 some repeat I think it's set to 1.1, whatever that means
 
-> using nvme for model speed up 120 s to 25 s
+### where does the moon go during a lunar eclipse
+- M002
+- multipl choice quis
+- stutters at end with "]]>"

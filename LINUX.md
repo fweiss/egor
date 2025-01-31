@@ -45,3 +45,6 @@ Maybe they are the result of installed apt packages, 6 seems about right.
 ``snap remove <package-name>`
 
 > LXD - container and VM manager
+
+## Links and references
+[hello world kernel driver](https://www.youtube.com/watch?v=juGNPLdjLH4)

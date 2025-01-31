@@ -7,10 +7,14 @@
 ## Piper
 - run with .py or as binary
 
+
+
 ## play
 Play is part of sox
 
 - ``sudo apt install sox``
+
+or is it ``sudo install alsa-utils``
 
 -- ``aplay -l``
 - ES8388
@@ -31,8 +35,12 @@ cases:
 > Playing WAVE './welcome.wav' : Signed 16 bit Little Endian, Rate 22050 Hz, Mono
 > aplay: set_params:1349: Channels count non available
 
+> speaker-test -Dhw:2,0 c2
+> Channels count (1) not available for playbacks: Invalid argument
+
+
 ## OPI5 Pro hardware
-just puttin this here for a while maybe
+just putting this here for a while maybe
 
 - chip: ES8388
 - headphone/mic jack
