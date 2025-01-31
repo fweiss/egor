@@ -1,0 +1,2 @@
+# depends on passwordless login
+192.168.1.113 ansible_connection=ssh ansible_ssh_user=orangepi

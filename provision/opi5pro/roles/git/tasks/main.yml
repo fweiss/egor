@@ -1,0 +1,7 @@
+---
+# Role: git
+
+- name: install git
+  apt:
+    name: git
+    state: present

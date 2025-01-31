@@ -1,0 +1,19 @@
+---
+# python3
+# tasks file for python3
+
+# should be already installed on armbian
+- name: Install python3
+  package:
+    name: python3
+    state: present
+
+- name: Install pip
+  package:
+    name: python3-pip
+    state: present
+
+- name: Install python-is-python3 package
+  package:
+    name: python-is-python3
+    state: present
