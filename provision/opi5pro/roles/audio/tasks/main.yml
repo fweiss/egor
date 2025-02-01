@@ -1,0 +1,12 @@
+---
+# audio tasks file for opi5pro
+
+# - name: Install pulseaudio
+#   ansible.builtin.apt:
+#     name: pulseaudio
+#     state: present
+
+- name: alsa-utils
+  ansible.builtin.apt:
+    name: alsa-utils
+    state: present

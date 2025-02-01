@@ -6,3 +6,5 @@
   - git
   - build-essential
   - python3
+  - audio
+  
