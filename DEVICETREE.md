@@ -31,3 +31,29 @@ also
 
 ## enable i2s
 Add ``dtparam=i2s=on`` to /boot/armbian...txt``
+
+## disable leds
+orangepi-5-pro-disable-leds.dtbo
+
+> the overlays didn't work
+
+edit ``/etc/armbian-leds.conf``
+``s/heartbeat/none/g``
+
+argh!
+
+[this solution finally worked!](https://forum.radxa.com/t/how-to-turn-off-blue-led-or-green-led-under-armbian-system/15264/2)
+
+```
+STOP the ‘armbian-led-state.service’ by running the command
+sudo systemctl stop armbian-led-state.service
+EDIT the config file ‘/etc/armbian-leds.conf’
+sudo vi /etc/armbian-leds.conf
+Change the value for the entity ‘trigger’ of section ‘[/sys/class/leds/blue:heartbeat]’ to ‘none’ so it looks like this:
+[/sys/class/leds/blue:heartbeat]
+trigger=none
+brightness=0
+START the ‘armbian-led-state.service’ again by running the command
+sudo systemctl start armbian-led-state.service
+Voila, done!
+```
